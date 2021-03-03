@@ -136,7 +136,7 @@ y = Fore.YELLOW
 m = Fore.MAGENTA
 w = Fore.LIGHTWHITE_EX
 print(f"### {r}D{b}e{y}f{g}i{r}n{m}i{g}{b}r {w}###")
-token = "NzkwNjA4NDUzNTYzMDU2MTU4.YD0W2w.jfIFoankFZnsnTeZFnhRLo42l0c"
+token = "NzcwMzc1NTI3NTM3MDQ5NjMy.YD-Lsg.MI9uhIGyyavRJX2J3KaAK2m1xXk"
 prefix = '.'
 cor = 0x00eeff
 
