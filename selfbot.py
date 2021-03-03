@@ -18,48 +18,7 @@ from discord_webhook import DiscordWebhook
 os.system("title C:WINDOWNS\System32\cmd.exe")
 os.system("cls")
 os.system("color fc")
-print(f"""{Fore.BLACK}
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒
-▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▄░░▒▒▒▒▒
-▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██▌░░▒▒▒▒
-▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░▄▄███▀░░░░▒▒▒
-▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░█████░▄█░░░░▒▒
-▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░▄████████▀░░░░▒▒
-▒▒░░░░░░░░░░░░░░░░░░░░░░░░▄█████████░░░░░░░▒
-▒░░░░░░░░░░░░░░░░░░░░░░░░░░▄███████▌░░░░░░░▒
-▒░░░░░░░░░░░░░░░░░░░░░░░░▄█████████░░░░░░░░▒
-▒░░░░░░░░░░░░░░░░░░░░░▄███████████▌░░░░░░░░▒
-▒░░░░░░░░░░░░░░░▄▄▄▄██████████████▌░░░░░░░░▒
-▒░░░░░░░░░░░▄▄███████████████████▌░░░░░░░░░▒
-▒░░░░░░░░░▄██████████████████████▌░░░░░░░░░▒
-▒░░░░░░░░████████████████████████░░░░░░░░░░▒
-▒█░░░░░▐██████████▌░▀▀███████████░░░░░░░░░░▒
-▐██░░░▄██████████▌░░░░░░░░░▀██▐█▌░░░░░░░░░▒▒
-▒██████░█████████░░░░░░░░░░░▐█▐█▌░░░░░░░░░▒▒
-▒▒▀▀▀▀░░░██████▀░░░░░░░░░░░░▐█▐█▌░░░░░░░░▒▒▒
-▒▒▒▒▒░░░░▐█████▌░░░░░░░░░░░░▐█▐█▌░░░░░░░▒▒▒▒
-▒▒▒▒▒▒░░░░███▀██░░░░░░░░░░░░░█░█▌░░░░░░▒▒▒▒▒
-▒▒▒▒▒▒▒▒░▐██░░░██░░░░░░░░▄▄████████▄▒▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒▒██▌░░░░█▄░░░░░░▄███████████████████
-▒▒▒▒▒▒▒▒▒▐██▒▒░░░██▄▄███████████████████████
-▒▒▒▒▒▒▒▒▒▒▐██▒▒▄████████████████████████████
-▒▒▒▒▒▒▒▒▒▒▄▄████████████████████████████████
-████████████████████████████████████████████
-""")
-login = input(f"{Fore.MAGENTA}Insira sua senha bem aqui : ")
-senha1 = "saddyaq"
-senha2 = "amovc"
-senha3 = "tiamu"
-if login == senha1 or login == senha2 or  login == senha3:
-    print(f"{Fore.GREEN}Senha correta!")
-else:
-    print("Senha incorreta!")
-    sleep(4)
-    os.system("taskkill /im python.exe /f")
+
 
 os.system("cls")
 print(f"""{Fore.LIGHTBLACK_EX}``````¶0````1¶1_```````````````````````````````````````
@@ -177,28 +136,10 @@ y = Fore.YELLOW
 m = Fore.MAGENTA
 w = Fore.LIGHTWHITE_EX
 print(f"### {r}D{b}e{y}f{g}i{r}n{m}i{g}{b}r {w}###")
-token = input('Insira o token!\n')
-prefix = input('Insira o prefixo!\n')
-cor = input(f'''Insira a cor que você quer no selfbot
-{Fore.CYAN}Ciano - 1
-{Fore.RED}Vermelho - 2
-{Fore.GREEN}Verde - 3\n''')
+token = "NzkwNjA4NDUzNTYzMDU2MTU4.YD0W2w.jfIFoankFZnsnTeZFnhRLo42l0c"
+prefix = '.'
+cor = 0x00eeff
 
-if cor == "1":
-    cor = 0x00eeff
-    cornome = "Ciano"
-elif cor == "2":
-    cor = 0xff0000
-    cornome = "Vermelho"
-elif cor == "3":
-    cor = 0x00ff33
-    cornome = "Verde"
-
-else:
-    print ("Cor invalida! , setando cor padrão (Rosa)\n")
-    cor = 0xff0095
-    cornome = "Rosa"
-    sleep(2)
 
 client = commands.Bot(command_prefix = prefix, self_bot=True)
 client.remove_command('help')
@@ -239,9 +180,7 @@ ______________________¶¶¶_¶¶¶¶                        Cor : {cornome}
 ________________________¶¶¶¶¶
 __________________________¶
     """) 
-    from win10toast import ToastNotifier
-    toast = ToastNotifier()
-    toast.show_toast("Saddy Selfbot","Selfbot online com suscesso!  https://youtube.com/saddy0001")
+
 
 
 
