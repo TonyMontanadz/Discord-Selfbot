@@ -879,7 +879,7 @@ async def clearv2(ctx, limit: int=None):
             try:
                 await message.delete()
                 print(f"Mensagem deletada : {message.content}")
-                sleep(0.5)
+                sleep(1.5)
             except:
                 pass
 
